@@ -240,7 +240,7 @@ h2 {
 
 p {
   line-height: 1.7;
-  color: var(--text-muted);
+  color: var(--text);
 }
 
 a { color: var(--accent-bright); }
