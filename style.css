@@ -279,18 +279,6 @@ a { color: var(--accent-bright); }
   box-shadow: 0 0 24px rgba(168, 85, 247, 0.4);
 }
 
-.large-btn {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 2rem 3rem;
-  border-radius: 999px;
-  background: linear-gradient(135deg, var(--accent-bright), var(--accent));
-  color: var(--void);
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 2rem;
-  box-shadow: 0 0 24px rgba(168, 85, 247, 0.4);
-}
 
 footer {
   text-align: center;
