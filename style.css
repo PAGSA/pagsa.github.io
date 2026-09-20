@@ -405,8 +405,8 @@ figure {
   width: 760px !important;
   max-width: 760px !important;
   height:auto;
-  margin: 1.5rem 0;
-  align-self: flex-start;
+  margin: 1.5rem auto;
+  align: center;
 }
 
 figure img {
