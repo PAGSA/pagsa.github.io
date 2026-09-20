@@ -402,14 +402,16 @@ footer {
 }
 
 figure {
-  width: 1000px !important;
-  max-width: 1000px !important;
+  width: 760px !important;
+  max-width: 760px !important;
+  height:auto;
   margin: 1.5rem 0;
   align-self: flex-start;
 }
 
 figure img {
-  width: 100%;
+  width: 100% !important;
+  height:auto;
   border-radius: 14px;
   border: 1px solid rgba(168, 85, 247, 0.25);
   display: block;
