@@ -401,8 +401,19 @@ footer {
   }
 }
 
+figure.fixed-figure {
+    width: 760px; /* Set your fixed width here */
+    margin: 0 auto; /* Optional: centers the figure on the page */
+  }
+  
+figure.fixed-figure img {
+    width: 100%; /* Makes the image fill the figure's fixed width */
+    height: auto; /* Maintains the correct aspect ratio */
+    display: block; /* Removes unwanted space below the image */
+  }
 
-.figure {
+
+figure {
   width: 760px !important;
   max-width: 100% !important;
   height:auto !important;
@@ -410,7 +421,7 @@ footer {
   align: center;
 }
 
-.figure img {
+figure img {
   width: 760px !important;
   max-width: 760px !important;
   height:auto;
@@ -419,7 +430,7 @@ footer {
   display: block;
 } 
 
-.figcaption {
+figcaption {
   margin-top: 0.6rem;
   font-size: 0.85rem;
   color: var(--text-muted);
