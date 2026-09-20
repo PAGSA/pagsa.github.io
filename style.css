@@ -413,23 +413,6 @@ figure.fixed-figure img {
   }
 
 
-figure {
-  width: 760px !important;
-  max-width: 100% !important;
-  height:auto !important;
-  margin: 1.5rem auto;
-  align: center;
-}
-
-figure img {
-  width: 760px !important;
-  max-width: 760px !important;
-  height:auto;
-  border-radius: 14px;
-  border: 1px solid rgba(168, 85, 247, 0.25);
-  display: block;
-} 
-
 figcaption {
   margin-top: 0.6rem;
   font-size: 0.85rem;
