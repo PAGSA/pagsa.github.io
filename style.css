@@ -387,6 +387,7 @@ footer {
   grid-row: span 2;
 }
 
+/*
 @media (max-width: 640px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
@@ -399,7 +400,8 @@ footer {
   .gallery .g-tall {
     grid-row: span 1;
   }
-}
+} 
+*/
 
 figure.fixed-figure {
     width: 700px; /* Set your fixed width here */
