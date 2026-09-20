@@ -424,7 +424,7 @@ details summary {
   display: flex;
   align-items: center;
   gap: 8px; /* Controls the space between the triangle and the text */
-  cursor: pointer; /* Makes it obvious the element is clickable */
+  cursor: pointer !important; /* Makes it obvious the element is clickable */
 
   /* Copied from H2 typography above in this file */
   font-family: var(--font-display);
@@ -440,5 +440,5 @@ details summary {
   font-weight: inherit;
   display: inline;
   margin: 0;
-  cursor: pointer
+  cursor: pointer !important
 } 
