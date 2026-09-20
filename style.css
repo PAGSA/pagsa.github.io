@@ -425,4 +425,18 @@ details summary {
   align-items: center;
   gap: 8px; /* Controls the space between the triangle and the text */
   cursor: pointer; /* Makes it obvious the element is clickable */
+
+   /* H2 Typography Styles */
+  font-size: 1.5em;          /* Makes the text larger like an H2 */
+  font-weight: bold;         /* Makes the text bold */
+  margin-top: 0.83em;        /* Matches standard H2 spacing */
+  margin-bottom: 0.83em;     /* Matches standard H2 spacing */
+}
+
+/* Ensures any text wrapper inside doesn't override the layout */
+details summary * {
+  font-size: inherit;
+  font-weight: inherit;
+  display: inline;
+  margin: 0;
 }
