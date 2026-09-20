@@ -403,8 +403,8 @@ footer {
 
 figure {
   width: 760px !important;
-  max-width: 760px !important;
-  height:auto;
+  max-width: 100% !important;
+  height:auto !important;
   margin: 1.5rem auto;
   align: center;
 }
