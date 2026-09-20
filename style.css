@@ -435,9 +435,9 @@ details summary {
 }
 
 /* Ensures any text wrapper inside doesn't override the layout */
-details summary * {
+/* details summary * {
   font-size: inherit;
   font-weight: inherit;
   display: inline;
   margin: 0;
-}
+} */
