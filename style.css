@@ -420,25 +420,59 @@ figcaption {
 }
 
 
-details summary {
+/* details summary {
   display: flex;
   align-items: center;
-  gap: 8px; /* Controls the space between the triangle and the text */
-  cursor: pointer !important; /* Makes it obvious the element is clickable */
+  gap: 8px;  Controls the space between the triangle and the text 
+  cursor: pointer !important;  Makes it obvious the element is clickable 
 
-  /* Copied from H2 typography above in this file */
+  /* Copied from H2 typography above in this file 
   font-family: var(--font-display);
   font-size: 1.4rem;
   color: var(--accent-bright);
   margin-top: 1rem;
   
-}
+} */
 
-/* Ensures any text wrapper inside doesn't override the layout */
+/* Ensures any text wrapper inside doesn't override the layout 
  details summary * {
   font-size: inherit;
   font-weight: inherit;
   display: inline;
   margin: 0;
   cursor: pointer !important
-} 
+} */
+
+
+details summary {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+  cursor: pointer !important;
+
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--accent-bright);
+  margin-top: 2.5rem;
+}
+
+/* Forces the default triangle arrow to generate inside the flex layout */
+details summary::before {
+  content: "▶";
+  font-size: 0.8em; /* Scales the arrow nicely with your H2 text size */
+  transition: transform 0.2s ease; /* Adds a smooth rotation animation */
+}
+
+/* Rotates the triangle downwards when the details element is open */
+details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+/* Keeps the cursor fixed on inner elements */
+details summary * {
+  font-size: inherit;
+  font-weight: inherit;
+  display: inline;
+  margin: 0;
+  cursor: pointer !important;
+}
