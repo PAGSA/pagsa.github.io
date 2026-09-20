@@ -402,11 +402,12 @@ footer {
 }
 
 figure {
+  width: 1000px
   margin: 1.5rem 0;
 }
 
 figure img {
-  width: 1000px;
+  width: 100%;
   border-radius: 14px;
   border: 1px solid rgba(168, 85, 247, 0.25);
   display: block;
@@ -419,29 +420,6 @@ figcaption {
   text-align: center;
 }
 
-
-/* details summary {
-  display: flex;
-  align-items: center;
-  gap: 8px;  Controls the space between the triangle and the text 
-  cursor: pointer !important;  Makes it obvious the element is clickable 
-
-  /* Copied from H2 typography above in this file 
-  font-family: var(--font-display);
-  font-size: 1.4rem;
-  color: var(--accent-bright);
-  margin-top: 1rem;
-  
-} */
-
-/* Ensures any text wrapper inside doesn't override the layout 
- details summary * {
-  font-size: inherit;
-  font-weight: inherit;
-  display: inline;
-  margin: 0;
-  cursor: pointer !important
-} */
 
 
 details summary {
