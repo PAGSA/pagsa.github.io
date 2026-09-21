@@ -3,14 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Student Org</title>
+  <title>UVic PAGSA</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="/media/pagsa_icon_old.png" type="image/png">
 </head>
 <body>
+  <div class="side-stars" aria-hidden="true">
+    <span class="side-star" style="left: 3vw; top: 14vh;">&#10022;</span>
+    <span class="side-star" style="left: 5vw; top: 38vh;">&#10023;</span>
+    <span class="side-star" style="left: 2.5vw; top: 62vh;">&#8902;</span>
+    <span class="side-star" style="left: 4vw; top: 86vh;">&#10022;</span>
+    <span class="side-star" style="right: 3vw; top: 22vh;">&#10023;</span>
+    <span class="side-star" style="right: 5vw; top: 48vh;">&#10022;</span>
+    <span class="side-star" style="right: 2.5vw; top: 72vh;">&#8902;</span>
+    <span class="side-star" style="right: 4vw; top: 94vh;">&#10023;</span>
+  </div>
   <nav>
-    <a href="index.html" class="brand">UVic<span>PAGSA</span></a>
+    <a href="index.html" class="brand">UVic<span>PAGSA</span><span class="brand-deco" aria-hidden="true">&#10022;</span></a>
     <div class="nav-links">
       <a href="index.html" class="link">Home</a>
       <div class="nav-item">
@@ -79,15 +90,14 @@
 
 <p>Before joining the team you will need to navigate over to the signup link for UVic Intramurals and pay the registration fee after signing in with your Netlink ID (what you use to sign in to UVic services) to officially join the team! Fees for intramural are approximately $60 in the summer semester and $30 in the winter semester for registered students. Below are a few photos of the Instant Noodles (in Green Pinnies) in action many seasons ago!</p>
 
-    <figure class="fixed-figure">
-        <img src="media/soccer_warmingup.jpg">
-        <p class="caption">Warming up (and staying warm!) before our game.</p>
-    </figure>   
-
-    <figure class="fixed-figure">
-        <img src="media/soccer_givingchase.jpg">
-        <p class="caption">Giving chase to the ball on the counter attack!</p>
-    </figure>   
+  <div class="gallery">
+      <a href="media/soccer_warmingup.jpg" class="g-tall">
+        <img src="media/soccer_warmingup.jpg" alt="Warming up (and staying warm!) before our game.">
+      </a>
+      <a href="media/soccer_givingchase.jpg" class="g-large">
+        <img src="media/soccer_givingchase.jpg" alt="Giving chase to the ball on the counter attack!">
+      </a>
+  </div>
     
 <h2>Running</h2>
 <p>Do you like to run? Do you want to get into running but don’t know how/where to start? If you answered yes to either of these questions then we have the group for you! Currently you can post in the Discord looking for running buddies and in the past we have even scheduled regular runs (and sometimes even go out for a well deserved brunch afterwards!) Check out the #running channel to say hello, drop a line and connect with other running inclined PAGSApiens!</p>
@@ -104,9 +114,12 @@
   </main>
 
   <footer>
-    &copy; 2026 UVic PAGSA
-  </footer>
+    &copy; 2026 UVic PAGSA &nbsp;&nbsp; | &nbsp;&nbsp; pagsa@uvic.ca
 
+    <div class="deco-row" aria-hidden="true" style="margin-top: 24px">
+      <span>&#10022;</span><span>&pi;</span><span>&#10023;</span><span>&infin;</span><span>&#8902;</span><span>&#8747;</span>
+    </div>
+  </footer>
   <script src="nav.js"></script>
 </body>
 </html>
