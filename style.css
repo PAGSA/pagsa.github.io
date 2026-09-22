@@ -545,7 +545,7 @@ footer {
 */
 
 figure.fixed-figure {
-    width: 700px; /* Set your fixed width here */
+    max-width: 700px; /* Set your fixed width here */
     margin: 0 auto; /* Optional: centers the figure on the page */
   }
   
